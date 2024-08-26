@@ -1,0 +1,38 @@
+#fbt_product_dropdown {
+    max-height: 300px; /* Adjust this value as needed */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin-top: 36px;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1000;
+    width:55vw;
+}
+#fbt_product_dropdown .list-group-item {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+#fbt_product_dropdown .list-group-item:hover {
+    background-color: #f0f0f0;
+}
+.selected-products {
+    margin-top: 15px;
+}
+.selected-product {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.selected-product .remove-product {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}

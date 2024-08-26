@@ -1,0 +1,11 @@
+{
+  "name": "delete-draft-post/delete-draft-post",
+  "description": "This is for automatically delete a draft post",
+  "type": "project",
+  "license": "GPL2 or latest",
+  "autoload": {
+    "psr-4": {
+      "DeleteDraftPosts\\": "App"
+    }
+  }
+}

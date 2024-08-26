@@ -1,0 +1,11 @@
+{
+  "name": "buy-x-get-x/buy-x-get-x",
+  "description": "This plugin is used for buy one get one offer",
+  "type": "project",
+  "license": "GPL2 or latest",
+  "autoload": {
+    "psr-4": {
+      "AAC\\": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "frequentboughttogether/frequently-bought-together",
+  "description": "This plugin is used to list a freuqent products",
+  "type": "project",
+  "license": "GPL2 or latest",
+  "autoload": {
+    "psr-4": {
+      "Fbt\\": ""
+    }
+  }
+}
