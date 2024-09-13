@@ -1,0 +1,11 @@
+{
+  "name": "rest-api/rest-api",
+  "description": "This plugin is used to display the products using rest api",
+  "type": "project",
+  "license": "GPL2 or latest",
+  "autoload": {
+    "psr-4": {
+      "RADP\\": ""
+    }
+  }
+}
